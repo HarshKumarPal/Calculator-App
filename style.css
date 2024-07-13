@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: rgb(184, 165, 165);
+}
+
+.calculator{
+    width: 320px;
+    padding: 2rem 1.5rem;
+    border-radius: 1.7rem;
+    box-shadow: rgba(88, 88, 156, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: black;
+}
+
+.calulator-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(144, 188, 230, 0.849);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 0.5px solid rgba(233, 151, 151, 0.225);
+}
+
+button:hover{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    
+}
+
+#equal-btn{
+    width: 50%;
+    font-size: 3.5rem;
+    aspect-ratio: 2/0.88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fb7c14;
+}
+
+#equal-btn:hover{
+    font-size: 4rem;
+    background-color: gray;
+}
+
+.btn{
+    width: 23%;
+    aspect-ratio: 1/1;
+    margin: 0.5rem 0;
+}
+
+#display{
+    font-size: 2rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    border: 0.5px solid rgba(240, 119, 119, 0.501);
+    margin-bottom: 1.5rem;
+}
+
+.op{
+    width: 23%;
+    aspect-ratio: 1/1;
+    margin: 0.5rem 0;
+    background-color: white;
+}
